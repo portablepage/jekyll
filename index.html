@@ -5,3 +5,10 @@ title: You are logged in.
 
 From gh-pages!!
 
+{% for post in site.posts %}
+	  
+{% assign include_name = 'post_' | append: {{post.layout}} %} 
+{% include {{include_name}} %}
+	  
+	  
+{% endfor %}
