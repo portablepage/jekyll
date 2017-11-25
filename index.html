@@ -3,9 +3,9 @@ layout: default
 title: You are logged in.
 ---
 
-From gh-pages ascending
+From gh-pages descending
 
-{% for post in site.posts order:ascending %}
+{% for post in site.posts order:descending %}
   
 
   {% assign include_name = 'post_' | append: {{post.layout}} %} 
