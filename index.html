@@ -5,21 +5,10 @@ title: You are logged in.
 
 From gh-pages!!
 
-{% for post in site.posts %}
-  
-
-  
-  {% assign include_name = 'post_' | append: {{post.layout}} %} 
-{% include {{include_name}}.html %}
+{% for post in site.posts | sort_by: "order_id" %}
+	  
+{% assign include_name = 'post_' | append: {{post.layout}} %} 
+{% include {{include_name}} %}
 	  
 	  
 {% endfor %}
-
-
-<!--
-  {% if post.layout == "custom-page" %}
-  
-  	{{title}}
-	  
-  {% endif %}
--->
