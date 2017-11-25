@@ -8,7 +8,7 @@ From gh-pages!!
 {% for post in site.posts %}
 	  
 {% assign include_name = 'post_' | append: {{post.layout}} %} 
-{{include_name}}<br>
+{% include {{include_name}} %}
 	  
 	  
 {% endfor %}
