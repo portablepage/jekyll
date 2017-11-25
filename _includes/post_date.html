@@ -1,0 +1,15 @@
+---
+layout: default
+---
+	
+
+<section class="post" id="{{ id }}" style="padding: 50px; border: 1px solid #CCC; margin: 10px;">  
+
+	<h1 class="edit" data-content="title">{{title}}</h1>
+  
+	<em>{% for date in dateAdded %}{{date[1]}}{% endfor %}</em><br>
+
+	<div class="edit" data-content="body">{{body}}</div>
+
+
+</div>
