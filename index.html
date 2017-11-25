@@ -3,9 +3,9 @@ layout: default
 title: You are logged in.
 ---
 
-From gh-pages!!
+From gh-pages
 
-{% for post in site.posts %}
+{% for post in site.posts | sort: 'order_id' %}
   
 
   {% assign include_name = 'post_' | append: {{post.layout}} %} 
