@@ -2,7 +2,7 @@
 title: 'Another post'
 dateAdded:
     date: '1381363200'
-    timezone_type: '4'
+    timezone_type: '5'
     timezone: UTC
 created: 12/04/2018
 wordCount: '7'
