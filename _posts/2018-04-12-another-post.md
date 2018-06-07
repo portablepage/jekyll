@@ -15,4 +15,4 @@ translations:
 ---
 ## Markdown test
 
-Let's see how this **works** out
+Let's see how this **works** out. I can now easily write in *Markdown*
